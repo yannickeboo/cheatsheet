@@ -120,6 +120,14 @@ for more details refer  https://docs.docker.com/install/linux/docker-ce/ubuntu/#
           chmod 777 /var/run/docker.sock
         
 ## SonarQube Installation in ubuntu 16.04 
+# use this link to install sonarqube: https://www.vultr.com/docs/install-sonarqube-on-ubuntu-20-04-lts/
+# don'tforget to open the port:
+```
+sudo ufw allow 9000
+sudo ufw allow OpenSSH
+sudo ufw enable
+ sudo ufw status
+ ```
 
 Use apt-get to install the required packages.
  - apt-get update
