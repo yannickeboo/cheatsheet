@@ -270,6 +270,7 @@ Then to verify use below commands
  - Kubectl get service
  
  ## Nexus Installation in ubuntu 16.04
+ # Install nexus with this link: https://epma.medium.com/install-sonatype-nexus-3-on-ubuntu-20-04-lts-562f8ba20b98
 
  - apt-get install wget ( install if you dont have wget )
  - java -version ( make sure java is installed which should be java 8 or higher version )
